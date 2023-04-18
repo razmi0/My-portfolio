@@ -1,29 +1,19 @@
-<!--
-  Hello!
-  -
-  Simplefolio is a clean and responsive portfolio template for Developers!
-  Created by Jacobo Martinez.
-  -
-  Github Repo: https://github.com/cobiwave/simplefolio/
-  Readme: https://github.com/cobiwave/simplefolio/README.md
-  -
-  For business & inquires, contact me -> jacobojavier98@gmail.com
--->
 <!DOCTYPE html>
-<html lang="en" class="sr">
+<html lang="fr">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
-
-    <!-- Todo: put here your site title -->
-    <title>[Your name here] | Developer</title>
-    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[username], [name], skill" />
-    <!-- Todo: improve your SEO by adding a small description of you -->
-    <meta name="description" content="[Your name here] | Developer" />
-
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
+    <title>Cuesta | Developer</title>
+    <meta
+      name="keywords"
+      content="cuesta, thomas, developeur web, toulouse, optimisation, SEO, Psychologie, frameworks, HTML, CSS, Javascript, NodeJS"
+    />
+    <meta
+      name="description"
+      content="Cuesta Thomas | Developpeur web toulousain en reconversion | Je cherche une alternance et participer à la réussite de votre projet "
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -33,12 +23,8 @@
       defer
       src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
     ></script>
-
-    <!-- Todo: remove the below script once you finish your portfolio -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <!-- <script async defer src="https://buttons.github.io/buttons.js"></script> -->
   </head>
-
-  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
   <body>
     <div id="top"></div>
 
@@ -46,9 +32,11 @@
     <section id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title load-hidden">
-          Hi, my name is <span class="text-color-main">Your Name</span>
+          👋 Salut, je m'appelle
+          <span class="text-color-main">Thomas Cuesta</span>
           <br />
-          I'm the Unknown Developer.
+          Je suis <span class="text-color-main">Developpeur Web</span> basé
+          sur Toulouse, France.
         </h1>
         <p class="hero-cta load-hidden">
           <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
@@ -62,16 +50,15 @@
     <!-- **** About Section **** -->
     <section id="about">
       <div class="container">
-        <h2 class="section-title load-hidden">About me</h2>
+        <h2 class="section-title load-hidden">A propos de moi</h2>
         <div class="row about-wrapper">
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__image load-hidden">
               <img
-                alt="Profile Image"
-                class="img-fluid rounded shadow-lg"
+                class="rounded shadow-lg"
                 height="auto"
                 width="300px"
-                src="assets/profile.jpg"
+                src="./assets/profile.jpg"
                 alt="Profile Image"
               />
             </div>
@@ -79,20 +66,30 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text">
-                This is where you can describe about yourself. The more you
-                describe about yourself, the more chances you have!
+                Ayant toujours été passionné par l'informatique et les sciences.
+                J'ai récemment pris la décision de me reconvertir dans le
+                developpement web. Passionné du code, le developpement web est
+                pour moi l'occasion d'integrer mes connaissances dans des
+                projets concrets.
               </p>
               <p class="about-wrapper__info-text">
-                Extra Information about you! like hobbies and your goals.
+                J'y est découvert un univers passionnant, ou la créativité et
+                l'innovation sont au coeur de la création. Je concilie mes
+                aspirations et mes compétences pour créer des applications web
+                dans un environnement évoluant en permanence.
+              </p>
+              <p class="about-wrapper__info-text">
+                Je suis actuellement en formation de developpeur web et web
+                mobile chez WebForce3 et en recherche d'une alternance.
               </p>
               <span class="d-flex mt-3">
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--resume"
-                  href="assets/resume.pdf"
+                  href="./assets/resume.pdf"
                 >
-                  View Resume
+                  Voir mon CV
                 </a>
               </span>
             </div>
@@ -106,33 +103,42 @@
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Projects</h2>
+          <h2 class="section-title dark-blue-text">Projets</h2>
 
-          <!-- Notice: each .row is a project -->
+          <!-- Projet 1 -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 0</h3>
+                <h3 class="project-wrapper__text-title">Site de templating</h3>
                 <div>
+                  <p>
+                    Exercice d'integration d'une maquette, j'ai mis en place le
+                    responsive design et l'animation du site en utilisant HTML,
+                    CSS, Bootstrap, JavaScript et Vite. Le projet comprend une
+                    page de contact avec gestion d'erreurs, une galerie d'image,
+                    un carousel, un lien vers la maquette et une convention de
+                    nommage du code. Ce template est responsive, fonctionne sur
+                    tous les navigateurs et peut servir à toute personne
+                    souhaitant publié ses images sur le web.
+                  </p>
                   <p class="mb-4">
-                    Describe the project being very specific, you can use the Twitter standard: no more than 280 characters: 
-                    complement the information: the skills learned or reinforced in its realization and how you faced it, 
-                    prove to be proactive in the search for solutions.
+                    <strong>Technologies utilisées : </strong> HTML, CSS,
+                    Bootstrap, JavaScript, Vite
                   </p>
                 </div>
-                <a
+                <!-- <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
                   href="#!"
                 >
                   See Live
-                </a>
+                </a> -->
                 <a
                   rel="noreferrer"
                   target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
+                  class="cta-btn cta-btn--hero"
+                  href="https://github.com/razmi0/WF3-Integration"
                 >
                   Source Code
                 </a>
@@ -140,7 +146,12 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a
+                  rel="noreferrer"
+                  href="https://github.com/razmi0/WF3-Integration"
+                  target="_blank"
+                  aria-label="Link to the GitHub Repo"
+                >
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -149,50 +160,69 @@
                     class="thumbnail rounded js-tilt"
                   >
                     <img
-                      alt="Project Image"
+                      alt="a gif displaying a template for a website"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="./assets/template.gif"
                     />
                   </div>
                 </a>
               </div>
             </div>
           </div>
-          <!-- /END Project -->
+          <!-- End projet 1 -->
 
-          <!-- Notice: each .row is a project -->
+          <!-- Projet 2 -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 1</h3>
+                <h3 class="project-wrapper__text-title">Spotify Graphs</h3>
                 <div>
+                  <p>
+                    Projet personel dans lequel j'ai utilisé l'API de Spotify
+                    pour extraire les suggestions de l'algorithme de Spotify à
+                    partir d'un artiste. Les données sont ensuite analysées et
+                    visualisées en utilisant Gephi. Le script Python me
+                    permettant d'interroger les données provient d'un projet
+                    annexe d'un Social Data Scientist Nicolas Bouchaib. Ce
+                    projet est encore en cours d'évolution, l'extraction des
+                    données se fera bientôt en ligne grâce à des outils NodeJS
+                    comme Graphology en TypeScript.
+                  </p>
                   <p class="mb-4">
-                    Demonstrate in this description the skills of a programmer: such as having commitment, 
-                    having perseverance and accepting alternative solutions. Remember that being a portfolio you are not selling the project, 
-                    you are selling yourself, it reflects the resources used: Frameworks, libraries, platforms, etc.
+                    Ce projet m'a permis de découvrir la spatialisation de
+                    données, l'utilisation de Gephi et de l'API de Spotify mise
+                    à disposition des développeurs. Une cartographie offre des
+                    insights particuliers sur les relations entre les artistes.
+                    En plus d'un intérêt commercial, les cartographies viennent
+                    enrichir un processus scientifique d'étude des relations
+                    d'agents divers dans un système.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://github.com/razmi0/Spotify_Graphs"
                 >
-                  See Live
+                  Source Code
                 </a>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://www.easyzoom.com/imageaccess/31074b7342e947c3b3f2733603139f07"
                 >
-                  Source Code
+                  See HD Graphs
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+              <div class="project-wrapper__image load-hidden bg-black">
+                <a
+                  rel="noreferrer"
+                  href="https://www.easyzoom.com/imageaccess/31074b7342e947c3b3f2733603139f07"
+                  target="_blank"
+                >
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -201,67 +231,15 @@
                     class="thumbnail rounded js-tilt"
                   >
                     <img
-                      alt="Project Image"
+                      alt="an image displaying a colourful network graph"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="./assets/aya_FR_louv_DegIn_topBCJaune.jpg"
                     />
                   </div>
                 </a>
               </div>
             </div>
           </div>
-          <!-- /END Project -->
-
-          <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
-                <div>
-                  <p class="mb-4">
-                    If the project was collaborative, reflect it in this description, that will demonstrate communication and/or leadership skills. 
-                    Additionally, if you made use of the mastery of a second language, it will reflect on you professionalism.
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="#!"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="#!"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/project.jpg"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
         </div>
       </div>
     </section>
@@ -272,13 +250,13 @@
       <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper load-hidden">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
+          <p class="contact-wrapper__text">Me rencontrer ?</p>
           <a
             rel="noreferrer"
             target="_blank"
             class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
-            >Call to Action</a
+            href="mailto:thomas.cuesta31@email.com"
+            >Envoyer moi un email</a
           >
         </div>
       </div>
@@ -292,54 +270,32 @@
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/thomas-cuesta-895373261/"
+            target="_blank"
+            aria-label="Link to my linkedin profile"
+          >
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a
+            rel="noreferrer"
+            href="https://github.com/razmi0"
+            target="_blank"
+            aria-label="Link to my github profile"
+          >
             <i class="fa fa-github fa-inverse"></i>
           </a>
         </div>
-
         <hr />
-
-        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
         <p class="footer__text">
           © 2021 - Template developed by
           <a rel="noreferrer" href="https://github.com/cobiwave" target="_blank"
             >Jacobo Martínez</a
           >
         </p>
-
-        <!-- TO DO: remove this entire paragraph once you finish your portfolio -->
-        <p class="mt-3 pt-3">
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobiwave/simplefolio/fork"
-            data-icon="octicon-repo-forked"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Fork ntkme/github-buttons on GitHub"
-            >Fork</a
-          >
-          <a
-            rel="noreferrer" 
-            class="github-button"
-            href="https://github.com/cobiwave/simplefolio"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star cobiwave/simplefolio on GitHub"
-            >Star</a
-          >
-        </p>
       </div>
     </footer>
-    <!-- /END Footer Section -->
-
     <script defer type="module" src="index.js"></script>
   </body>
 </html>

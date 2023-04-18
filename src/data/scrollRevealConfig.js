@@ -60,7 +60,7 @@ export const targetElements = [
   {
     element: ".contact-wrapper",
     animation: {
-      delay: 800,
+      delay: 100,
       origin: "bottom",
     },
   },
