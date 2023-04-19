@@ -1,4 +1,5 @@
 # Portfolio 📖
+[![Netlify Status](https://api.netlify.com/api/v1/badges/75c47c2b-7e75-4dec-a85c-514dd9f275a6/deploy-status)](https://app.netlify.com/sites/cuesta-thomas-devweb/deploys)
 
 I made this portfolio with a beautiful and easy to use template for developers. Thank you for visiting and feel free to use it.
 
